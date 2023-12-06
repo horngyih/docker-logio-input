@@ -1,0 +1,15 @@
+{
+    "messageServer" : {
+        "host" : "172.18.0.2",
+        "port" : 22777
+    },
+    "inputs" : [
+        {
+            "source" : "test-source",
+            "stream" : "test-stream",
+            "config" : {
+                "path" : "/logs/*.log"
+            }
+        }
+    ]
+}
